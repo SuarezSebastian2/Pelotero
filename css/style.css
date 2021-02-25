@@ -1,17 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.navigation{
-    display: flex;
+/*barra navegacion*/
+/*intente con flex pero la estructuara html me inpedia una optima integracion de la barra*/
+
+.navigation::after{
+/*affter es unsa pseudo clase que me permite modificar en especifico los componentes*/
+    display: table;
+    clear: both;
+    content: " ";
+    text-align: center;
 }
-.logo{
-    display: inline-flex;
+.navigation{
+    padding: 10px;
+    background: rgb(0, 0, 0);
+}
+logo{
+    float: left;
 
 }
-.clic{
-    padding: 30px;
-    display: inline-flex;
+a{
+    color: rgba(255, 255, 255, 0.966);
+    font-family: 'Roboto', sans-serif;
     float: right;
+    text-decoration: none;
+    margin: 25px;   
+}
+
+
+/*fin barra */
+/*inicio contenido*/
+.content1{
+    padding-top: 50px;
+}
+section div {
+    width: 100%;
+    heigtheight: 400px;
 }
