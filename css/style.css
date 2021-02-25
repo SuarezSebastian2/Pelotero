@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    display: flex;
+}
+.logo{
+    display: inline-flex;
+
+}
+.clic{
+    padding: 30px;
+    display: inline-flex;
+    float: right;
+}
