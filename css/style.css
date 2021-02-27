@@ -4,30 +4,57 @@
     margin: 0;
     padding: 0;
 }
-
 /*barra navegacion*/
 /*intente con flex pero la estructuara html me inpedia una optima integracion de la barra*/
 
-.navigation{
-    background: rgb(8, 8, 8);
-    padding: 15px;
-    
+.navigation::after{
+/*affter es unsa pseudo clase que me permite modificar en especifico los componentes*/
+    display: table;
+    clear: both;
+    content: " ";
+    text-align: center;
 }
-.navigation a{
+.navigation{
+    padding: 10px;
+    background: rgb(0, 0, 0);
+}
+logo{
+    float: left;
+
+}
+a{
+    color: rgba(255, 255, 255, 0.966);
+    font-family: 'Roboto', sans-serif;
     float: right;
     text-decoration: none;
-    margin-right: 15px;
-    padding: 15px;
-    color: rgb(228, 232, 235);
-    text-indent: center;
-}
-.navigation img{
-   margin-left: 30px;
-    width: 60px;
+    margin: 25px;   
 }
 
-/*contenido*/
-.contenido2{
 
+/*fin barra */
+/*inicio contenido*/
+.content1{
+    padding-top: 50px;
+}
+footer {
+    width: 100%;
+    margin-top: 2em;
+}
+div.container-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
+
+div.container-redes ul {
+    list-style-type: none;
+
+}
+div.container-redes ul button {
+    border-style: none;
+    width: 10px;
+    padding-right: 50px;
+    font-size: 50px;
+}
