@@ -4,39 +4,30 @@
     margin: 0;
     padding: 0;
 }
+
 /*barra navegacion*/
 /*intente con flex pero la estructuara html me inpedia una optima integracion de la barra*/
 
-.navigation::after{
-/*affter es unsa pseudo clase que me permite modificar en especifico los componentes*/
-    display: table;
-    clear: both;
-    content: " ";
-    text-align: center;
-}
 .navigation{
-    padding: 10px;
-    background: rgb(0, 0, 0);
+    background: rgb(8, 8, 8);
+    padding: 15px;
+    
 }
-logo{
-    float: left;
-
-}
-a{
-    color: rgba(255, 255, 255, 0.966);
-    font-family: 'Roboto', sans-serif;
+.navigation a{
     float: right;
     text-decoration: none;
-    margin: 25px;   
+    margin-right: 15px;
+    padding: 15px;
+    color: rgb(228, 232, 235);
+    text-indent: center;
+}
+.navigation img{
+   margin-left: 30px;
+    width: 60px;
 }
 
+/*contenido*/
+.contenido2{
 
-/*fin barra */
-/*inicio contenido*/
-.content1{
-    padding-top: 50px;
 }
-section div {
-    width: 100%;
-    heigtheight: 400px;
-}
+
