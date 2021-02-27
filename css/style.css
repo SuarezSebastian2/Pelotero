@@ -36,7 +36,25 @@ a{
 .content1{
     padding-top: 50px;
 }
-section div {
+footer {
     width: 100%;
     height: 50px;
+}
+div.container-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+div.container-redes ul {
+    list-style-type: none;
+
+}
+div.container-redes ul button {
+    border-style: none;
+    width: 10px;
+    padding-right: 50px;
+    font-size: 50px;
 }
