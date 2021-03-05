@@ -18,7 +18,7 @@
     padding: 10px;
     background: rgb(0, 0, 0);
 }
-logo{
+.logo {
     float: left;
 
 }
@@ -37,15 +37,19 @@ a.menu{
     padding-top: 50px;
 }
 footer {
-    width: 100%;
+    width: 85%;
     height: 50px;
-    margin: 25px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
 }
 div.container-footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    border: solid rgba(70, 163, 111, 0.781);
 }
 
 
@@ -53,11 +57,15 @@ div.container-redes ul {
     list-style-type: none;
 
 }
-div.container-redes ul button {
+div.container-redes ul li {
     border-style: none;
     width: 10px;
     padding-right: 100px;
     font-size: 50px;
     background-color: white;
     margin: 0;
+    display: inline;
+}
+div.container-redes ul li i {
+    color: rgb(62, 131, 68);
 }
