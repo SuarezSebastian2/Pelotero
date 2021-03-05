@@ -22,7 +22,7 @@ logo{
     float: left;
 
 }
-a {
+a.menu{
     color: rgba(255, 255, 255, 0.966);
     font-family: 'Roboto', sans-serif;
     float: right;
