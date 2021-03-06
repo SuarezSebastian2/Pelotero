@@ -20,7 +20,6 @@
 }
 .logo {
     float: left;
-
 }
 a.menu{
     color: rgba(255, 255, 255, 0.966);
@@ -81,4 +80,5 @@ div.container-redes ul li {
 }
 div.container-redes ul li i {
     color: rgb(62, 131, 68);
+    
 }
