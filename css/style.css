@@ -26,8 +26,21 @@
     width: 60px;
 }
 
-/*contenido*/
-.contenido2{
+/*contenido 1*/
+.seaction1{
+    padding-top: 50px;
+    display: inline-flex;
 
 }
+.content1{
+    padding: 50px;
+}
+
+video{
+    margin-right: 20px;
+    width: 400px;
+    height: 200px;
+}
+
+/*contenido 2*/
 
