@@ -30,6 +30,11 @@ a.menu{
     margin: 25px;   
 }
 
+/*contenido 1*/
+.seaction1{
+    padding-top: 50px;
+    display: inline-flex;
+}
 
 /*fin barra */
 /*inicio contenido*/
@@ -44,6 +49,7 @@ footer {
     margin-bottom: 100px;
     padding-bottom: 50px;
 }
+
 div.container-footer {
     display: flex;
     flex-direction: row;
@@ -51,12 +57,19 @@ div.container-footer {
     flex-wrap: wrap;
     border: solid rgba(70, 163, 111, 0.781);
 }
-
-
 div.container-redes ul {
     list-style-type: none;
-
 }
+.content1{
+    padding: 50px;
+}
+video{
+    margin-right: 20px;
+    width: 400px;
+    height: 200px;
+}
+/*contenido 2*/
+
 div.container-redes ul li {
     border-style: none;
     width: 10px;
