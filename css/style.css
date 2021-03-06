@@ -21,6 +21,10 @@
     color: rgb(228, 232, 235);
     text-indent: center;
 }
+.navigation a:hover{
+    color: rgb(8, 8, 8);
+    background:rgb(228, 232, 235) ;
+}
 .navigation img{
    margin-left: 30px;
     width: 60px;
@@ -63,3 +67,17 @@ margin-left: 200px;
     padding: 100px 100px 10px 200px;
 }
 
+/*imagen 2 */
+.img2 img{
+    margin: 30px;
+width: 300px;
+height: 300px;
+border-radius: 50%;
+margin-right: 200px;
+}
+.text2 { 
+  text-align: right;
+
+    
+    padding: 100px 100px 10px 200px;
+}
