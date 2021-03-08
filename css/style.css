@@ -26,7 +26,19 @@ a.menu{
     font-family: 'Roboto', sans-serif;
     float: right;
     text-decoration: none;
-    margin: 25px;   
+    margin: 25px;  
+    margin-right: 15px;
+    padding: 15px;
+    color: rgb(228, 232, 235);
+    text-indent: center;
+}
+.navigation a:hover{
+    color: rgb(8, 8, 8);
+    background:rgb(228, 232, 235) ;
+}
+.navigation img{
+    margin-left: 30px;
+    width: 60px;
 }
 
 /*contenido 1*/
@@ -69,6 +81,14 @@ video{
 }
 /*contenido 2*/
 .seaction2{
+    background: cornflowerblue;
+    
+    margin: 200px 10px 100px;
+    padding-top: 100px;
+    display: inline-flex;
+
+}
+.seaction3{
     margin: 10px;
     padding-top: 100px;
     display: inline-flex;
@@ -79,12 +99,10 @@ video{
 width: 300px;
 height: 300px;
 border-radius: 50%;
-margin-left: 200px;
+margin-left: 100px;
 }
 .text1 { 
-  text-align: right;
-
-    
+    text-align: right;
     padding: 100px 100px 10px 200px;
 }
 
@@ -100,4 +118,30 @@ div.container-redes ul li {
 div.container-redes ul li i {
     color: rgb(62, 131, 68);
     
+}
+/*imagen 2 */
+.img2 img{
+    margin: 30px;
+width: 300px;
+height: 300px;
+border-radius: 50%;
+margin-right: 100px;
+}
+.text2 { 
+ 
+text-align: left;
+    
+    padding: 100px 100px 10px 100px;
+}
+.mj{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+ border-radius: 50px;
+   padding: 10px 40%;
+background-color: crimson;
+}
+.contenido{
+
+    text-align: center;
+    display: block;
 }
