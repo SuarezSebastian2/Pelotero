@@ -48,6 +48,15 @@ video{
 
 /*contenido 2*/
 .seaction2{
+    background: cornflowerblue;
+    
+    margin: 200px 10px 100px;
+    padding-top: 100px;
+    display: inline-flex;
+
+}
+.seaction3{
+   
     margin: 10px;
     padding-top: 100px;
     display: inline-flex;
@@ -58,7 +67,7 @@ video{
 width: 300px;
 height: 300px;
 border-radius: 50%;
-margin-left: 200px;
+margin-left: 100px;
 }
 .text1 { 
   text-align: right;
@@ -73,11 +82,23 @@ margin-left: 200px;
 width: 300px;
 height: 300px;
 border-radius: 50%;
-margin-right: 200px;
+margin-right: 100px;
 }
 .text2 { 
-  text-align: right;
-
+ 
+text-align: left;
     
-    padding: 100px 100px 10px 200px;
+    padding: 100px 100px 10px 100px;
+}
+.mj{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+ border-radius: 50px;
+   padding: 10px 40%;
+background-color: crimson;
+}
+.contenido{
+
+    text-align: center;
+    display: block;
 }
