@@ -50,8 +50,9 @@ video{
 .seaction2{
     background: cornflowerblue;
     
-    margin: 200px 10px 100px;
+    margin: 200px 0px 200px;
     padding-top: 100px;
+    padding:  200px 0px 200px;
     display: inline-flex;
 
 }
@@ -59,6 +60,7 @@ video{
    
     margin: 10px;
     padding-top: 100px;
+    padding: 100px 0px 200px;
     display: inline-flex;
 
 }
@@ -102,3 +104,124 @@ background-color: crimson;
     text-align: center;
     display: block;
 }
+
+
+
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+
+
+/*responsivo*/
+@media screen and (max-width: 600px){
+    .contenido{
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+.img2 img{
+    display:none;
+}
+.text2{
+    padding: 50px 10px 10pc 10px ;
+    text-align: left;
+}
+
+
+.img1 img{
+    display: none;
+}
+video {
+    display: none;
+}
+.navigation{
+    display: none;
+}
+
+    }
